@@ -3,9 +3,9 @@ package less1.practice;
 import java.util.ArrayList;
 import java.util.List;
 
-public class VendingMachine {
+public abstract class VendingMachine {
 
-    private List<Product> products;
+    protected List<Product> products;
 
     public VendingMachine() {
         this.products = new ArrayList<>();
@@ -15,10 +15,7 @@ public class VendingMachine {
         this.products = products;
     }
 
-
-    public void addProducts (List<Product> products) {
-        this.products.addAll(products);
-    }
+    public abstract void addProducts (List<Product> products);
 
     public Product getProduct(String name) {
 
