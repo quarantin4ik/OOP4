@@ -23,4 +23,5 @@ public class Cat extends Animal {
     public Owner getOwner() {
         return owner;
     }
+
 }

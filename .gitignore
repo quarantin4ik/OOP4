@@ -2,6 +2,7 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+src/less2/practice2/hw
 
 ### Eclipse ###
 .apt_generated

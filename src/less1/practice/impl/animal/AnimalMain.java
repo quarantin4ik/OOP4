@@ -57,5 +57,10 @@ public class AnimalMain {
 
         swimmable2.swim(12);
         swimmable.swim(12);
+
+        final List<Integer> list = new LinkedList<>();
+        System.out.println(list);
+        list.add(12);
+        System.out.println(list);
     }
 }
